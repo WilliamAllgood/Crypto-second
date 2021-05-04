@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+* {
+	margin: 0;
+	padding: 0
+}
+
+
+
+.title {
+	width: 565px;
+    background-color: white;
+    height: 91px;
+    /* border-radius: 50px; */
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.title h3 {
+	color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    /* text-shadow: 3px 5px 5px yellow; */
+    padding: 33px;
+    text-transform: uppercase;
+
+}
+
+h2 {
+	margin: 0 auto;
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    color: black;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    text-shadow: 3px 2px 2px grey;
+}
+
+.main-heading {
+	padding-bottom: 20px;
+	margin-top:-20px;
+    
+}
+
+.row .col {
+	margin-bottom: 10px;
+	
+
+}
+.row .col .box-style {
+	display: inline-block;
+	background-color: white;
+    padding: 10px;
+    border: 1px solid black
+}
+
+.row .col img {
+	width: 40px;
+	height: 40px;
+	
+}
+
+.row .col .card-body {
+	display: inline-block;
+	font-family: serif;
+    font-style: italic;
+    color: black
+}
+
+.row .col .card-body a{
+	color: black;
+	transition: 3s ease all
+}
+
+.row .col .card-body a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+.content {
+	background: white;
+	  color: black;
+    padding: 10px 10px;
+        box-shadow: 0px 1px 4px 3px white;
+        border: 1px solid black;
+}
+
+.content p {
+	font-family: emoji;
+	text-align: left;
+	font-family: 'Lora', serif;
+}
+
+.faq {
+	background: white;
+	  color: black;
+    padding: 10px 10px;
+        box-shadow: 0px 1px 4px 3px white;
+        border: 1px solid black;
+}
+
+
+.faq p{
+	font-family: emoji;
+	text-align: left;
+	font-family: 'Lora', serif;
+}
